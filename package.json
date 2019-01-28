@@ -1,0 +1,20 @@
+{
+  "name": "fake-python-classwork-server",
+  "version": "0.0.1",
+  "description": "a fake server for python-classwork-explorer",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "start": "json-server --watch fakeData.js --port 3001 --static ./webroot"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git.."
+  },
+  "keywords": [
+    "react",
+    "python"
+  ],
+  "author": "zc1415926",
+  "license": "MIT"
+}
